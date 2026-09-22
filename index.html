@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Acolhe - espaço de conscientização e apoio emocional.">
+
+    <title>Acolhe | Setembro Amarelo</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="#inicio" class="logo">
+                <span class="logo-icon">✦</span>
+                Acolhe
+            </a>
+
+            <button class="menu-button" id="menuButton" aria-label="Abrir menu">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#humor">Como estou?</a></li>
+                <li><a href="#respiracao">Respire</a></li>
+                <li><a href="#ajuda">Onde buscar ajuda</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+
+                <span class="tag">SETEMBRO AMARELO</span>
+
+                <h1>
+                    Você não precisa
+                    <span>passar por tudo sozinho.</span>
+                </h1>
+
+                <p>
+                    Um espaço digital criado para promover conscientização,
+                    acolhimento e informação sobre saúde emocional.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="tel:188" class="button emergency-button">
+                        ☎ Ligue 188 — CVV
+                    </a>
+
+                    <a href="#humor" class="button secondary-button">
+                        Como estou hoje?
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <div class="hero-card">
+
+                <div class="sun-icon">☀</div>
+
+                <h2>Um momento para você</h2>
+
+                <p>
+                    Pare por alguns segundos, respire e perceba como você
+                    está se sentindo.
+                </p>
+
+                <div class="mini-line"></div>
+
+                <span>Seu bem-estar importa.</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SOBRE ================= -->
+
+        <section class="section about">
+
+            <div class="section-title">
+
+                <span>CONSCIENTIZAÇÃO</span>
+
+                <h2>Falar também é uma forma de cuidar.</h2>
+
+                <p>
+                    O Setembro Amarelo é uma campanha de conscientização
+                    sobre a importância da saúde mental e da prevenção do
+                    suicídio. Conversar sobre sentimentos pode ajudar a
+                    aproximar pessoas de informação, acolhimento e ajuda.
+                </p>
+
+            </div>
+
+
+            <div class="info-grid">
+
+                <article class="info-card">
+                    <div class="card-icon">💬</div>
+
+                    <h3>Converse</h3>
+
+                    <p>
+                        Encontrar alguém de confiança para conversar pode
+                        ser um primeiro passo importante.
+                    </p>
+                </article>
+
+
+                <article class="info-card">
+                    <div class="card-icon">👂</div>
+
+                    <h3>Escute</h3>
+
+                    <p>
+                        Ouvir sem julgamentos pode fazer diferença para
+                        alguém que esteja passando por um momento difícil.
+                    </p>
+                </article>
+
+
+                <article class="info-card">
+                    <div class="card-icon">🤝</div>
+
+                    <h3>Procure ajuda</h3>
+
+                    <p>
+                        Profissionais e serviços especializados podem
+                        oferecer orientação e acompanhamento adequado.
+                    </p>
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= HUMOR ================= -->
+
+        <section class="section mood-section" id="humor">
+
+            <div class="section-title">
+
+                <span>SEU MOMENTO</span>
+
+                <h2>Como você está se sentindo hoje?</h2>
+
+                <p>
+                    Escolha uma opção. Não existe resposta certa ou errada.
+                </p>
+
+            </div>
+
+
+            <div class="mood-container">
+
+                <button class="mood-button" data-mood="bem">
+                    <span>😊</span>
+                    <strong>Bem</strong>
+                    <small>Estou tranquilo</small>
+                </button>
+
+                <button class="mood-button" data-mood="normal">
+                    <span>😐</span>
+                    <strong>Normal</strong>
+                    <small>Estou levando</small>
+                </button>
+
+                <button class="mood-button" data-mood="triste">
+                    <span>😔</span>
+                    <strong>Triste</strong>
+                    <small>Não estou legal</small>
+                </button>
+
+                <button class="mood-button" data-mood="ansioso">
+                    <span>😰</span>
+                    <strong>Ansioso</strong>
+                    <small>Minha mente está acelerada</small>
+                </button>
+
+                <button class="mood-button" data-mood="sobrecarregado">
+                    <span>😣</span>
+                    <strong>Sobrecarregado</strong>
+                    <small>Está sendo difícil</small>
+                </button>
+
+            </div>
+
+
+            <div class="message-box" id="messageBox">
+
+                <span class="message-icon">💛</span>
+
+                <div>
+                    <h3 id="messageTitle">
+                        Um espaço para você
+                    </h3>
+
+                    <p id="messageText">
+                        Escolha como você está se sentindo para receber
+                        uma mensagem.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= RESPIRAÇÃO ================= -->
+
+        <section class="section breathing-section" id="respiracao">
+
+            <div class="breathing-content">
+
+                <div class="section-title left">
+
+                    <span>PAUSA DE RESPIRAÇÃO</span>
+
+                    <h2>Vamos respirar juntos?</h2>
+
+                    <p>
+                        Reserve alguns minutos para desacelerar.
+                        Acompanhe o círculo e tente manter uma respiração
+                        tranquila e confortável.
+                    </p>
+
+                </div>
+
+
+                <div class="breathing-area">
+
+                    <div class="breathing-circle" id="breathingCircle">
+
+                        <span id="breathingText">
+                            Pronto?
+                        </span>
+
+                    </div>
+
+                    <p class="breathing-counter" id="breathingCounter">
+                        Clique para começar
+                    </p>
+
+                    <button class="button breathing-button" id="breathingButton">
+                        Começar exercício
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CARTÃO ================= -->
+
+        <section class="section card-section">
+
+            <div class="daily-card">
+
+                <span>✨ MENSAGEM PARA AGORA</span>
+
+                <h2 id="randomMessage">
+                    Você não precisa ter todas as respostas hoje.
+                </h2>
+
+                <button class="button secondary-button" id="newMessage">
+                    Nova mensagem
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= AJUDA ================= -->
+
+        <section class="section help-section" id="ajuda">
+
+            <div class="section-title">
+
+                <span>ONDE BUSCAR AJUDA</span>
+
+                <h2>Você pode procurar apoio.</h2>
+
+                <p>
+                    Existem diferentes serviços que podem orientar e
+                    oferecer atendimento de acordo com cada situação.
+                </p>
+
+            </div>
+
+
+            <div class="help-grid">
+
+                <article class="help-card">
+
+                    <div class="help-icon">📞</div>
+
+                    <h3>CVV — 188</h3>
+
+                    <p>
+                        O Centro de Valorização da Vida oferece apoio
+                        emocional de forma gratuita.
+                    </p>
+
+                    <a href="tel:188">
+                        Ligar para 188 →
+                    </a>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <div class="help-icon">🏥</div>
+
+                    <h3>CAPS</h3>
+
+                    <p>
+                        Os Centros de Atenção Psicossocial oferecem
+                        atendimento especializado em saúde mental.
+                    </p>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <div class="help-icon">🩺</div>
+
+                    <h3>UBS / Posto de Saúde</h3>
+
+                    <p>
+                        As unidades básicas de saúde podem orientar
+                        sobre serviços e encaminhamentos.
+                    </p>
+
+                </article>
+
+
+                <article class="help-card">
+
+                    <div class="help-icon">🎓</div>
+
+                    <h3>Clínicas-escola</h3>
+
+                    <p>
+                        Algumas instituições de ensino oferecem
+                        atendimento psicológico supervisionado.
+                    </p>
+
+                </article>
+
+            </div>
+
+
+            <div class="emergency-box">
+
+                <div>
+                    <span>Em uma situação de emergência</span>
+
+                    <h3>
+                        Procure imediatamente um serviço de emergência
+                        ou peça ajuda a alguém de confiança.
+                    </h3>
+                </div>
+
+                <a href="tel:192" class="button emergency-button">
+                    SAMU — 192
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <div>
+
+                <a href="#inicio" class="logo footer-logo">
+                    <span class="logo-icon">✦</span>
+                    Acolhe
+                </a>
+
+                <p>
+                    Informação, conscientização e acolhimento.
+                </p>
+
+            </div>
+
+
+            <div class="footer-warning">
+
+                <strong>⚠ Aviso importante</strong>
+
+                <p>
+                    Este site é um projeto acadêmico desenvolvido para
+                    fins educacionais. Ele não substitui atendimento
+                    psicológico, médico ou qualquer outro atendimento
+                    profissional especializado.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Acolhe — Projeto acadêmico de ADS
+            </p>
+
+            <p>
+                Desenvolvido com HTML5, CSS3 e JavaScript.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
